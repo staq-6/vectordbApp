@@ -51,3 +51,6 @@ htmlcov/
 
 # Azure
 .azure/
+architecture.svg
+architecture.drawio
+ARCHITECTURE.md

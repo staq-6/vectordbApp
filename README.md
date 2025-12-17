@@ -33,10 +33,13 @@ A full-stack RAG (Retrieval Augmented Generation) application that allows users 
 - Python 3.8+
 - Node.js 16+
 - Azure subscription with the following resources:
-  - Azure OpenAI Service (or Azure AI Foundry)
+  - Microsoft Foundry
   - Azure DocumentDB (MongoDB vCore)
   - Azure Blob Storage
   - Azure Document Intelligence
+## Architecture
+
+![alt text](image.png)
 
 ## Installation
 
@@ -90,7 +93,7 @@ COSMOS_DB_NAME=testdb
 COSMOS_COLLECTION_NAME=col1
 ```
 
-#### 3. Azure OpenAI / AI Foundry
+#### 3. Microsoft Foundry
 AI models for embeddings and chat.
 
 ```env
