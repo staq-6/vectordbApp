@@ -89,8 +89,8 @@ MONGO_CLUSTER_NAME=your-cluster-name
 COSMOS_MONGO_USER=your-username
 COSMOS_MONGO_PWD=your-password
 COSMOS_MONGO_SERVER=your-cluster.mongo.cosmos.azure.com
-COSMOS_DB_NAME=testdb
-COSMOS_COLLECTION_NAME=col1
+COSMOS_DB_NAME=your-documentdb-name
+COSMOS_COLLECTION_NAME=your-collection-name
 ```
 
 #### 3. Microsoft Foundry
@@ -120,7 +120,7 @@ Store uploaded documents.
 STORAGE_ACCOUNT_NAME=your-storage-account-name
 STORAGE_ACCOUNT=https://your-storage-account.blob.core.windows.net/
 STORAGE_KEY=your-storage-access-key
-STORAGE_CON_NAME_RAW=sandbox
+STORAGE_CON_NAME_RAW=your-container-name
 ```
 
 #### 5. Server Configuration (Optional - has defaults)
